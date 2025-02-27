@@ -1,0 +1,32 @@
+* {
+  font-family: Lato;
+  text-align: center;
+}
+
+mat-grid-list {
+  max-width: 80%;
+  margin: 0 auto;
+}
+mat-grid-tile span {
+  outline: wheat dashed 1px;
+  padding: 0.2em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: green;
+}
+
+mat-grid-tile  button {
+  color: white;
+  background: green;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 1279px) {
+    mat-grid-list {
+        min-width: 95%;
+    }
+}
+
+
+
